@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(247, 199, 199, 0.8);
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    animation: relax 1s linear;
+}
+
+@keyframes relax{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.main .form-container{
+    width: 430px;
+    height: 500px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.8);
+    border-radius: 15px;
+    background: #ffffff;
+}
+
+.main .form-container span{
+    cursor: pointer;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h6{
+    color:  #737475;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main .form-container .input-group-name{
+    margin: 15px 0;
+}
+
+.main .form-container .input-group-name input{
+    width: 193px;
+    padding: 10px 10px 10px 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.main .form-container .input-group-name{
+    position: relative;
+}
+.main .form-container .input-group-name small{
+    background-color: firebrick;
+    width: 35%;
+    /* padding: 10px; */
+    color: #ffff;
+    text-transform: capitalize;
+    position: absolute;
+    top: 10px;
+    left: -40%;
+}
+
+
+.main .form-container .input-group-email input{
+    width: 95%;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.main .form-container .input-group-email small{
+    color: firebrick;
+    text-transform: capitalize;
+}
+
+.main .form-container .input-group-password{
+    margin: 15px 0;
+}
+.main .form-container .input-group-password input{
+    width: 95%;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+.main .form-container .input-group-date select{
+    width: 28%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.main .form-container .input-group-date h5{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #6b6b6b;
+}
+
+.main .form-container .input-group-gender{
+    margin: 10px 0;
+}
+.main .form-container .input-group-gender h5{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #6b6b6b;
+}
+
+.main .form-container h5{
+    margin: 10px 0;
+}
+
+.main .form-container .input-group-gender label{
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    text-transform: capitalize;
+    margin-right: 20px; 
+    margin-top: 20px; 
+}
+
+.main .form-container button{
+    width: 50%;
+    padding: 10px;
+    background: #2ead2e;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 10px;
+    margin-left: 120px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.main .form-container a{
+
+    margin-left: 130px;
+    color: #4949c5;
+}
+
+/* ====================
+    sign up form ends
+====================*/
+
+
+.show-form{
+    width: 1890px;
+    height: 720px;
+    background: #e2e2e2;
+    margin: 5px auto ;
+    display: flex;
+    /* justify-content: center;
+   align-items: center; */
+    /* border-radius: 50%;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 10s; */
+}
+
+.show-form .fb-text{
+    width: 940px;
+    height: 100%;
+    /* background: #f08f8f; */
+    /* line-height: 30px;
+    text-align: center; */
+}
+
+.show-form .fb-form{
+    width: 860px;
+    height: 100%;
+    background: #e02121;  
+    position: relative;
+    /* line-height: 30px;
+    text-align: center; */
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #2a71f5;
+    text-align: center;
+    margin-top: 205px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+h3{
+    font-size: 30px;
+    color: #1c1e21;;
+    margin-left: 358px;
+    margin-top: 5px;
+}
+
+.show-form .fb-form{
+   width:400px;
+   height: 350px;
+   background-color: #ffffff;  
+   display: flex;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.8);
+   /* justify-content: center;
+   align-items: center; */
+   margin-top: 150px;
+   margin-left: 50px;
+   border-radius: 15px;
+   padding: 15px;
+}
+
+.show-form .fb-form .input-form{
+    margin: 15px 0;
+}
+
+.show-form .fb-form .input-form input{
+    width: 360px;
+    padding: 15px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 18px;
+}
+
+.show-form .fb-form button{
+    width: 360px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #2a71f5;;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+.show-form .fb-form .button {
+    position: absolute;
+    top: 280px;
+    left: 0;
+}
+
+.show-form .fb-form .button button{
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 250px;
+    background: #0bdb0b;;
+    color: #fff;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.show-form .fb-form h4 {
+    text-align: center;
+    margin-top: 30px;
+   
+}
+
+.show-form .fb-form .input-form{
+    color: firebrick;
+    text-transform: capitalize;
+}
+
+
+/* ====================
+    log in form ends
+====================*/

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/styel.css">
+</head>
+<body>
+
+<!-- sign up form starts -->
+    <div class="main" id="modal">
+
+        <div class="form-container">
+            <h2>Form for New account<span id="closeModal">&times;</span></h2>
+            <h6>it's easy & quick</h6>
+            <form>
+                <div class="input-group-name">
+                    <input type="text" placeholder="frist name" id="userName">
+                    <small id="nameErr"></small>
+                    <input type="text" placeholder="surname" id="surName">
+                    <small id="surNameErr"></small>
+                </div>
+
+                <!-- <div class="input-group">
+                    <input type="text" placeholder="surname" id="userName">
+                    <small id="nameErr"></small>
+                </div> -->
+
+                <div class="input-group-email">
+                    <input type="email" placeholder="mobile number or email address" id="userEmail">
+                    <small id="userEmailErr"></small>
+                </div>
+
+                <div class="input-group-password">
+                    <input type="password" placeholder="new password" id="pass">
+                    <small id="passErr"></small>
+                </div>
+
+                <div class="input-group-date">
+                    <h5>date of birth</h5>
+                    <!-- <label for="library">Library:</label>
+                    <select name="library" id="library">
+                        <option value="Architecture Seminar Library">Architecture Seminar Library</option>
+                        <option value="Business Studies Seminar Library">Business Studies Seminar Library</option>
+                        <option value="Computer Science & Engineering Seminar Library">Computer Science & Engineering Seminar Library</option>
+                        <option value="PharmacySeminar Library">PharmacySeminar Library</option>
+                    </select> -->
+                
+                <select>
+                    <option>select date</option>
+                    <option value="1" >1</option>
+                    <option  value="2">2</option>
+                    <option  value="3">3</option>
+                    <option  value="4">4</option>
+                    <option  value="5">5</option>
+                    <option  value="6">6</option>
+                    <option value="7" >7</option>
+                    <option value="8">8</option>
+                    <option value="9" >9</option>
+                    <option  value="10">10</option>
+                    <option  value="11">11</option>
+                    <option  value="12">12</option>
+                    <option  value="13">13</option>
+                    <option  value="14">14</option>
+                    <option  value="15">15</option>
+                    <option  value="16">16</option>
+                    <option  value="17">17</option>
+                    <option  value="18">18</option>
+                    <option  value="19">19</option>
+                    <option  value="20">20</option>
+                    <option  value="21">21</option>
+                    <option  value="22">22</option>
+                    <option  value="23">23</option>
+                    <option  value="24">24</option>
+                    <option  value="25">25</option>
+                    <option  value="26">26</option>
+                    <option  value="27">27</option>
+                    <option  value="28">28</option>
+                    <option  value="29">29</option>
+                    <option  value="30">30</option>
+                    <option  value="31">31</option>
+                </select>
+           
+                
+                <select id="month">
+                    <option>select month</option>
+                    <option >January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+
+               
+                <select id="year">
+                    <option>select year</option>
+                    <option >1905</option>
+                    <option >1906</option>
+                    <option >1906</option>
+                    <option >1907</option>
+                    <option >1908</option>
+                    <option >1909</option>
+                    <option >1910</option>
+                    <option>1911</option>
+                    <option >1912</option>
+                    <option >1913</option>
+                    <option >1914</option>
+                    <option >1915</option>
+                    <option >1916</option>
+                    <option >1917</option>
+                    <option >1917</option>
+                    <option >1919</option>
+                    <option >1920</option>
+                    <option >1921</option>
+                    <option >1922</option>
+                    <option >1923</option>
+                    <option >1924</option>
+                    <option >1925</option>
+                    <option >1926</option>
+                    <option >1927</option>
+                    <option >1928</option>
+                    <option >1930</option>
+                    <option >1931</option>
+                    <option >1932</option>
+                    <option >1933</option>
+                    <option >1934</option>
+                    <option >1935</option>
+                </select>
+                    <small id="passErr"></small>
+                </div>
+
+                <div class="input-group-gender">
+                    <h5>gender</h5>
+                    
+                        <label >  male &nbsp; &nbsp; &nbsp;<input type="radio" name="gender"> </label>
+                        <label >  female &nbsp; &nbsp; &nbsp;<input type="radio" name="gender"> </label>
+                        <label > custome &nbsp; &nbsp; &nbsp;<input type="radio" name="gender"> </label>
+                    
+                </div>
+
+                
+
+
+                <!-- <div class="input-group">
+                    <input type="password" placeholder="please confirm your passward" id="confirmPass">
+                    <small id="confirmPassErr"></small>
+                </div> -->
+                <button type="submit" onclick="return subm();">send</button>
+
+                
+            </form>
+            <a href="index.html">Aready have an account?</a>
+        </div> 
+    </div>
+<!-- sign up form ends -->
+
+
+<!-- log in form starts -->
+    <div class="show-form" >
+
+        <div class="fb-text">
+            <h1>facebook</h1>
+            <h3>Facebook helps you connect and share with the people in your life</h3>
+        </div>
+
+        
+            <div class="fb-form">
+                <form>
+                    <div class="input-form">
+                        <input type="email" placeholder="Email address or phone number" id="userEmail1">
+                        <small id="emailError"></small>
+                    </div>
+    
+                    <div class="input-form">
+                        <input type="password" placeholder="Password" id="userPass">
+                        <small id="userPassErr"></small>
+                    </div>
+                    <button type="submit" onclick=" return logForm();">log in</button>
+                    <a href="index.html"><h4>forgotten password?</h4></a>
+                </form>
+
+                <div class="button" id="tigger">
+                    <button type="submit">create a new account</button>
+                </div>
+            </div>       
+
+    </div>
+<!-- log in form ends -->
+
+
+  <script src="js/custom.js"></script>  
+</body>
+</html>
+
